@@ -1,0 +1,8 @@
+POST /predict HTTP/1.1
+Host: localhost:8080
+Content-Type: application/json
+Async-Mode: true
+
+{
+    "input": "Sample input data for the model"
+}
